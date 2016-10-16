@@ -1,0 +1,13 @@
+.f24 { font-size: 24px; }
+.f20 { font-size: 20px; }
+.f16 { font-size: 16px; }
+.f14 { font-size: 14px; }
+.f12 { font-size: 12px; }
+
+.selected-state {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pip-sample-pic {
+	max-width: 400px;
+}
