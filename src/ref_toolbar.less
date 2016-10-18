@@ -16,7 +16,7 @@
   @ref-toolbar-pic-size: 80px;
 
   .flex();
-  .flex-direction-row();
+  .flex-direction(row);
 
   .pip-pic {
     height: @ref-toolbar-pic-size !important;
@@ -28,8 +28,8 @@
     min-height: @ref-toolbar-pic-size;
 
     .flex();
-    .flex-direction-column();
-    .flex-horizontal-center();
+    .flex-direction(column);
+    .flex-justify-content(center, center);
 
     .pip-title,
     .pip-subtitle {
