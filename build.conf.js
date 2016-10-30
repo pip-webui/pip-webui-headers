@@ -1,13 +1,16 @@
 module.exports = {
     module: {
         name: 'pipHeaders',
-        styles: 'headers'
+        styles: 'headers',
+        export: 'pip'
     },
     build: {
-        js: true,
+        js: false,
         ts: false,
-        html: true,
-        css: true,
+        tsd: false,
+        bundle: false,
+        html: false,
+        less: true,
         lib: true,
         images: true,
         dist: true
