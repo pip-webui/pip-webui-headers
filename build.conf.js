@@ -2,7 +2,7 @@ module.exports = {
     module: {
         name: 'pipHeaders',
         styles: 'headers',
-        export: 'pip',
+        export: 'pip.headers',
         standalone: 'pip.headers'
     },
     build: {
