@@ -1,28 +1,30 @@
 {
-    "name": "pip-webui-headers",
-    "version": "1.5.0",
-    "author": "Digital Living Software Corp. <www.digitallivingsoftware.com>",
-    "description": "Headers css styles and controls for Pip.WebUI",
-    "contributors": [
-        {
-            "name": "Sergey Seroukhov",
-            "email": "seroukhov@gmail.com"
-        },
-        {
-            "name": "Katerina Negrienko",
-            "email": "katya@negrienko.com"
-        }
-    ],
-    "keywords": [
-        "pip",
-        "webui",
-        "header"
-    ],
-    "noAnalyze": true,
-    "license": "MIT",
-    "private": false,
-    "dependencies": {},
-    "devDependencies": {
-        "pip-webui-tasks": "git+https://github.com/pip-webui/pip-webui-tasks.git"
-    }
+    "name":  "pip-webui-headers",
+    "version":  "1.5.0",
+    "author":  "Digital Living Software Corp. <www.digitallivingsoftware.com>",
+    "description":  "Headers css styles and controls for Pip.WebUI",
+    "contributors":  [
+                         {
+                             "name":  "Sergey Seroukhov",
+                             "email":  "seroukhov@gmail.com"
+                         },
+                         {
+                             "name":  "Katerina Negrienko",
+                             "email":  "katya@negrienko.com"
+                         }
+                     ],
+    "keywords":  [
+                     "pip",
+                     "webui",
+                     "header"
+                 ],
+    "noAnalyze":  true,
+    "license":  "MIT",
+    "private":  false,
+    "dependencies":  {
+
+                     },
+    "devDependencies":  {
+                            "pip-webui-tasks":  "^1.8.0"
+                        }
 }
