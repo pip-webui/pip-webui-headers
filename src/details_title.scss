@@ -1,0 +1,30 @@
+// @file Title with details CSS styles
+// @copyright Digital Living Software Corp. 2014-2015
+
+.pip-details-title {
+
+
+  .pip-title {
+    min-height: 24px;
+    padding-right: 36px !important;
+    margin: 0;
+    font: $font-title;
+    opacity: 1;
+    -webkit-user-select: auto;
+  }
+
+
+  .pip-subtitle {
+    height: 24px;
+    margin: 0 !important;
+    font: $font-body1;
+    line-height: 1.2em;
+    width: 100%;
+    opacity: 0.54;
+    @include text-overflow();
+    @include flex();
+    @include flex-direction(row);
+    align-items: center;
+  }
+
+}
