@@ -269,7 +269,7 @@ md-dialog .pip-progress-top {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 19px;
-  width: calc(100%) !important; }
+  width: 100% !important; }
 
 .pip-filter-row {
   height: 48px !important;
