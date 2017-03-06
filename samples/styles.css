@@ -11,3 +11,14 @@
 .pip-sample-pic {
 	max-width: 400px;
 }
+
+.p24 {
+	padding: 24px
+}
+
+.p24-flex {
+	padding: 24px;
+}
+@media(max-windth: 768px) {
+	padding: 16px
+}
