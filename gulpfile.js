@@ -13,8 +13,8 @@ gulp.task('build-less', function() {
 });
 
 // Define build tasks        
-gulp.task('build', ['build-dev', 'build-prod', 'build-less']);
-gulp.task('rebuild', ['build-dev']);
+gulp.task('rebuild', ['build-dev', 'build-prod', 'build-less']);
+gulp.task('build', ['build-dev']);
 gulp.task('clean', ['build-clean']);
 gulp.task('watch', ['build-watch']);
 gulp.task('jshint', ['test-jshint']);
