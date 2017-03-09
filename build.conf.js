@@ -1,7 +1,7 @@
 module.exports = {
     module: {
         name: 'pipHeaders',
-        styles: 'headers',
+        styles: 'index',
         export: 'pip.headers',
         standalone: 'pip.headers'
     },
@@ -13,8 +13,8 @@ module.exports = {
         html: false,
         sass: true,
         lib: true,
-        images: true,
-        dist: true
+        images: false,
+        dist: false
     },
     file: {
         lib: [
