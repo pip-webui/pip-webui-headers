@@ -1,9 +1,7 @@
-// @file Composition of WebUI CSS framework styles
-// @copyright Digital Living Software Corp. 2014-2015
-@import "css_light/css_light";
+@import "css_light/index";
 
-@import "ref_toolbar";
-@import "ref_title";
-@import "details_title";
-@import "progress_top";
-@import "filter_row";
+@import "RefToolbar";
+@import "RefTitle";
+@import "DetailsTitle";
+@import "ProgressOnTop";
+@import "FilterRow";
