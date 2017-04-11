@@ -1,0 +1,83 @@
+// Implement the following structure (something close to)
+// pip-ref-toolbar
+//   pip-pic
+//   pip-content
+//     pip-title
+//     pip-subtitle
+//     pip-action
+
+.pip-ref-toolbar {
+
+  $ref-toolbar-indent: 24px;
+  $ref-toolbar-indent-sm: 16px;
+  $ref-toolbar-pic-size: 80px;
+
+  @include flex();
+  @include flex-direction(row);
+
+  .pip-pic {
+    height: $ref-toolbar-pic-size !important;
+    width: $ref-toolbar-pic-size !important;
+    border-radius: 50%;
+  }
+
+  .pip-content {
+    min-height: $ref-toolbar-pic-size;
+
+    @include flex();
+    @include flex-direction(column);
+    @include flex-justify-content(center, center);
+
+    .pip-title,
+    .pip-subtitle {
+      margin: 0;
+      -webkit-user-select: auto;
+    }
+
+    .pip-action {
+      display: inline-block;
+      button {
+        margin: 8px 8px 8px 0;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    padding: $ref-toolbar-indent;
+
+    .pip-pic {
+      margin-right: $ref-toolbar-indent;
+    }
+
+    .pip-content {
+      .pip-title {
+        font: $font-display1;
+      }
+
+      .pip-subtitle {
+        font: $font-title;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: $ref-toolbar-indent-sm;
+
+    .pip-pic {
+      margin-right: $ref-toolbar-indent-sm;
+    }
+
+    .pip-content {
+
+      .pip-title {
+        font: $font-headline;
+      }
+
+      .pip-subtitle {
+        font: $font-body2;
+      }
+    }
+  }
+
+}
+

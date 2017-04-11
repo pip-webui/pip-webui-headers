@@ -6,15 +6,15 @@ var pkg = require('./package');
 // Add standard tasks    
 require('pip-webui-tasks').all(gulp);
 
-gulp.task('build-less', function() {
+gulp.task('build-sass', function() {
     return gulp.src([])
-        .pipe(concat(pkg.name + '.less'))
+        .pipe(concat(pkg.name + '.scss'))
         .pipe(gulp.dest('./dist'));
 });
 
 // Define build tasks        
-gulp.task('build', ['build-dev', 'build-prod', 'build-less']);
-gulp.task('rebuild', ['build-dev']);
+gulp.task('rebuild', ['build-dev', 'build-prod', 'build-sass']);
+gulp.task('build', ['build-dev']);
 gulp.task('clean', ['build-clean']);
 gulp.task('watch', ['build-watch']);
 gulp.task('jshint', ['test-jshint']);
